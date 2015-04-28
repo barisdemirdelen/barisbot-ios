@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController {
 
     @IBOutlet var webView: UIWebView!
+    @IBOutlet weak var bannerView: GADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +20,14 @@ class ViewController: UIViewController {
         let url = NSURL (string: "http://barisdemirdelen.com/chat/");
         let requestObj = NSURLRequest(URL: url!);
         webView.loadRequest(requestObj);
+        
+        self.bannerView.adUnitID = "ca-app-pub-7819139870608872/2675194851";
+        
+        self.bannerView.rootViewController = self;
+        
+        var request: GADRequest = GADRequest();
+        
+        self.bannerView.loadRequest(request);
     }
     /*
     override func viewDidAppear(animated: Bool) {

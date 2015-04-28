@@ -13,6 +13,17 @@
 		8070F06A1AEEE05000AB4E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8070F0691AEEE05000AB4E34 /* Images.xcassets */; };
 		8070F06D1AEEE05000AB4E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8070F06B1AEEE05000AB4E34 /* LaunchScreen.xib */; };
 		8070F0791AEEE05000AB4E34 /* talkwithmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070F0781AEEE05000AB4E34 /* talkwithmeTests.swift */; };
+		8070F0831AEFB7A400AB4E34 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0821AEFB7A400AB4E34 /* GoogleMobileAds.framework */; };
+		8070F0851AEFB7C700AB4E34 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0841AEFB7C700AB4E34 /* AdSupport.framework */; };
+		8070F0871AEFB7CE00AB4E34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0861AEFB7CE00AB4E34 /* AudioToolbox.framework */; };
+		8070F0891AEFB7D900AB4E34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0881AEFB7D900AB4E34 /* AVFoundation.framework */; };
+		8070F08B1AEFB7E500AB4E34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F08A1AEFB7E500AB4E34 /* CoreGraphics.framework */; };
+		8070F08D1AEFB7F600AB4E34 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F08C1AEFB7F600AB4E34 /* CoreTelephony.framework */; };
+		8070F0901AEFB80600AB4E34 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F08E1AEFB80600AB4E34 /* EventKit.framework */; };
+		8070F0911AEFB80600AB4E34 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F08F1AEFB80600AB4E34 /* EventKitUI.framework */; };
+		8070F0931AEFB81500AB4E34 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0921AEFB81500AB4E34 /* MessageUI.framework */; };
+		8070F0951AEFB82F00AB4E34 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0941AEFB82F00AB4E34 /* StoreKit.framework */; };
+		8070F0971AEFB83C00AB4E34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0961AEFB83C00AB4E34 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		8070F0721AEEE05000AB4E34 /* talkwithmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkwithmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8070F0771AEEE05000AB4E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8070F0781AEEE05000AB4E34 /* talkwithmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkwithmeTests.swift; sourceTree = "<group>"; };
+		8070F0821AEFB7A400AB4E34 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "SDKs/GoogleMobileAdsSdkiOS-7.1.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		8070F0841AEFB7C700AB4E34 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8070F0861AEFB7CE00AB4E34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8070F0881AEFB7D900AB4E34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8070F08A1AEFB7E500AB4E34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8070F08C1AEFB7F600AB4E34 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8070F08E1AEFB80600AB4E34 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		8070F08F1AEFB80600AB4E34 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		8070F0921AEFB81500AB4E34 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8070F0941AEFB82F00AB4E34 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8070F0961AEFB83C00AB4E34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8070F0971AEFB83C00AB4E34 /* SystemConfiguration.framework in Frameworks */,
+				8070F0951AEFB82F00AB4E34 /* StoreKit.framework in Frameworks */,
+				8070F0931AEFB81500AB4E34 /* MessageUI.framework in Frameworks */,
+				8070F0901AEFB80600AB4E34 /* EventKit.framework in Frameworks */,
+				8070F0911AEFB80600AB4E34 /* EventKitUI.framework in Frameworks */,
+				8070F08D1AEFB7F600AB4E34 /* CoreTelephony.framework in Frameworks */,
+				8070F08B1AEFB7E500AB4E34 /* CoreGraphics.framework in Frameworks */,
+				8070F0891AEFB7D900AB4E34 /* AVFoundation.framework in Frameworks */,
+				8070F0871AEFB7CE00AB4E34 /* AudioToolbox.framework in Frameworks */,
+				8070F0851AEFB7C700AB4E34 /* AdSupport.framework in Frameworks */,
+				8070F0831AEFB7A400AB4E34 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +92,17 @@
 		8070F0541AEEE05000AB4E34 = {
 			isa = PBXGroup;
 			children = (
+				8070F0961AEFB83C00AB4E34 /* SystemConfiguration.framework */,
+				8070F0941AEFB82F00AB4E34 /* StoreKit.framework */,
+				8070F0921AEFB81500AB4E34 /* MessageUI.framework */,
+				8070F08E1AEFB80600AB4E34 /* EventKit.framework */,
+				8070F08F1AEFB80600AB4E34 /* EventKitUI.framework */,
+				8070F08C1AEFB7F600AB4E34 /* CoreTelephony.framework */,
+				8070F08A1AEFB7E500AB4E34 /* CoreGraphics.framework */,
+				8070F0881AEFB7D900AB4E34 /* AVFoundation.framework */,
+				8070F0861AEFB7CE00AB4E34 /* AudioToolbox.framework */,
+				8070F0841AEFB7C700AB4E34 /* AdSupport.framework */,
+				8070F0821AEFB7A400AB4E34 /* GoogleMobileAds.framework */,
 				8070F05F1AEEE05000AB4E34 /* talkwithme */,
 				8070F0751AEEE05000AB4E34 /* talkwithmeTests */,
 				8070F05E1AEEE05000AB4E34 /* Products */,
@@ -344,6 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/GoogleMobileAdsSdkiOS-7.1.0",
+				);
 				INFOPLIST_FILE = talkwithme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +403,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs/GoogleMobileAdsSdkiOS-7.1.0",
+				);
 				INFOPLIST_FILE = talkwithme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

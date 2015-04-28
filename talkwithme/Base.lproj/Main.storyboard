@@ -16,41 +16,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Phg-eV-hXo" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="71O-Hb-vJ9"/>
+                                    <constraint firstAttribute="height" constant="50" id="CzJ-La-dQq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="71O-Hb-vJ9"/>
+                                        <exclude reference="CzJ-La-dQq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="71O-Hb-vJ9"/>
+                                        <include reference="CzJ-La-dQq"/>
+                                    </mask>
+                                </variation>
+                            </view>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZQI-zc-4kV">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="61" y="43" width="306" height="514"/>
+                                    <rect key="frame" x="47" y="78" width="306" height="514"/>
                                 </variation>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ZQI-zc-4kV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="0AL-YJ-aBd">
+                                <variation key="widthClass=compact" constant="70"/>
+                            </constraint>
                             <constraint firstAttribute="width" secondItem="ZQI-zc-4kV" secondAttribute="width" id="4wk-h8-XLn"/>
-                            <constraint firstAttribute="centerY" secondItem="ZQI-zc-4kV" secondAttribute="centerY" id="6qn-00-Jc2"/>
-                            <constraint firstAttribute="height" secondItem="ZQI-zc-4kV" secondAttribute="height" id="Bf9-tj-mDU"/>
+                            <constraint firstItem="Phg-eV-hXo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7hc-Y5-yCC">
+                                <variation key="widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="Phg-eV-hXo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oxa-gu-tHf"/>
+                            <constraint firstItem="ZQI-zc-4kV" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="sCJ-6U-Gpo"/>
                             <constraint firstAttribute="centerX" secondItem="ZQI-zc-4kV" secondAttribute="centerX" constant="-14" id="vFj-un-fRH">
                                 <variation key="widthClass=compact" constant="0.0"/>
                             </constraint>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Phg-eV-hXo"/>
+                            </mask>
                             <mask key="constraints">
+                                <exclude reference="7hc-Y5-yCC"/>
+                                <exclude reference="oxa-gu-tHf"/>
+                                <exclude reference="0AL-YJ-aBd"/>
                                 <exclude reference="4wk-h8-XLn"/>
-                                <exclude reference="6qn-00-Jc2"/>
-                                <exclude reference="Bf9-tj-mDU"/>
+                                <exclude reference="sCJ-6U-Gpo"/>
                                 <exclude reference="vFj-un-fRH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Phg-eV-hXo"/>
+                            </mask>
                             <mask key="constraints">
+                                <include reference="7hc-Y5-yCC"/>
+                                <include reference="oxa-gu-tHf"/>
+                                <include reference="0AL-YJ-aBd"/>
                                 <include reference="4wk-h8-XLn"/>
-                                <include reference="6qn-00-Jc2"/>
-                                <include reference="Bf9-tj-mDU"/>
+                                <include reference="sCJ-6U-Gpo"/>
                                 <include reference="vFj-un-fRH"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="bannerView" destination="Phg-eV-hXo" id="NjX-oh-RxO"/>
                         <outlet property="webView" destination="ZQI-zc-4kV" id="Ipe-80-lex"/>
                     </connections>
                 </viewController>
