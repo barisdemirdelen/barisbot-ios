@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805CF1061AF808A600F6BE07 /* logo_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 805CF1051AF808A600F6BE07 /* logo_1024.png */; };
+		805CF1081AF80E1900F6BE07 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805CF1071AF80E1900F6BE07 /* Launch Screen.xib */; };
 		8070F0631AEEE05000AB4E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070F0621AEEE05000AB4E34 /* AppDelegate.swift */; };
 		8070F0651AEEE05000AB4E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070F0641AEEE05000AB4E34 /* ViewController.swift */; };
 		8070F0681AEEE05000AB4E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8070F0661AEEE05000AB4E34 /* Main.storyboard */; };
 		8070F06A1AEEE05000AB4E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8070F0691AEEE05000AB4E34 /* Images.xcassets */; };
-		8070F06D1AEEE05000AB4E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8070F06B1AEEE05000AB4E34 /* LaunchScreen.xib */; };
 		8070F0791AEEE05000AB4E34 /* talkwithmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070F0781AEEE05000AB4E34 /* talkwithmeTests.swift */; };
 		8070F0831AEFB7A400AB4E34 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0821AEFB7A400AB4E34 /* GoogleMobileAds.framework */; };
 		8070F0851AEFB7C700AB4E34 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8070F0841AEFB7C700AB4E34 /* AdSupport.framework */; };
@@ -37,13 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		805CF1051AF808A600F6BE07 /* logo_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_1024.png; sourceTree = "<group>"; };
+		805CF1071AF80E1900F6BE07 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		8070F05D1AEEE05000AB4E34 /* talkwithme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkwithme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8070F0611AEEE05000AB4E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8070F0621AEEE05000AB4E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8070F0641AEEE05000AB4E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8070F0671AEEE05000AB4E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8070F0691AEEE05000AB4E34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8070F06C1AEEE05000AB4E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8070F0721AEEE05000AB4E34 /* talkwithmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkwithmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8070F0771AEEE05000AB4E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8070F0781AEEE05000AB4E34 /* talkwithmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkwithmeTests.swift; sourceTree = "<group>"; };
@@ -125,8 +127,9 @@
 				8070F0641AEEE05000AB4E34 /* ViewController.swift */,
 				8070F0661AEEE05000AB4E34 /* Main.storyboard */,
 				8070F0691AEEE05000AB4E34 /* Images.xcassets */,
-				8070F06B1AEEE05000AB4E34 /* LaunchScreen.xib */,
+				805CF1051AF808A600F6BE07 /* logo_1024.png */,
 				8070F0601AEEE05000AB4E34 /* Supporting Files */,
+				805CF1071AF80E1900F6BE07 /* Launch Screen.xib */,
 			);
 			path = talkwithme;
 			sourceTree = "<group>";
@@ -238,8 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8070F0681AEEE05000AB4E34 /* Main.storyboard in Resources */,
-				8070F06D1AEEE05000AB4E34 /* LaunchScreen.xib in Resources */,
+				805CF1081AF80E1900F6BE07 /* Launch Screen.xib in Resources */,
 				8070F06A1AEEE05000AB4E34 /* Images.xcassets in Resources */,
+				805CF1061AF808A600F6BE07 /* logo_1024.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +291,6 @@
 				8070F0671AEEE05000AB4E34 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8070F06B1AEEE05000AB4E34 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8070F06C1AEEE05000AB4E34 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -387,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -402,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +464,7 @@
 				8070F07E1AEEE05000AB4E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8070F07F1AEEE05000AB4E34 /* Build configuration list for PBXNativeTarget "talkwithmeTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +473,7 @@
 				8070F0811AEEE05000AB4E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
